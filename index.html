@@ -1,156 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>actividad clase 1</title>
-    <link rel="stylesheet" href="./css/estilos.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Rhino Cars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../cssRhino/Rhino.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Smooch&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Smooch&family=Tai+Heritage+Pro&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/11b17b1229.js" crossorigin="anonymous"></script>
+</head>
 
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <a class="logo" href="./htmls/destacado.html"
-            ><img src="./imagenes/descarga.jpg" alt=""
-          /></a>
+
+<body class="cuerpo">
+    <nav class="navbar navbar-black bg-black Sologo">
+        <div class="container-fluid Sologo">
+            <a class="navbar-brand" href="">
+                <img src="https://i.pinimg.com/236x/1a/8c/ea/1a8cea7038b26cd1dda651bace69ddcb.jpg" alt="" width="85"
+                    height="60" class />
+            </a>
+
+            <ul class="nav justify-content-end nav-pills" <li class="nav-item">
+                <a class="nav-link link-light" aria-current="page" href="../htmls/asociado.html">Asociado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light" href="../htmls/destacado.html">destacado</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-light" href="../htmls/SobreNosotros.html">Sobre Nosotros</s></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle activate link-dark bg-light" href="#" id="navbarDropdown" |
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        nuestras Muestras
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">peugeot</a></li>
+                        <li><a class="dropdown-item" href="#">volkswagen</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Mercedes-benz</a></li>
+                        <li><a class="dropdown-item" href="#">Audi</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">porsche</a></li>
+                        <li><a class="dropdown-item" href="#">ferrari</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div>
+        <div>
+            <h1 class="subtitulo text-light animate__animated  animate__rubberBand">algunas de nuestras muestras</h1>
         </div>
         <div>
-          <ul class="navbar">
-            <li class="lista"><a href="./htmls/asociado.html">Asociado</a></li>
-            <li class="lista">
-              <a href="./htmls/SobreNosotros.html">Sobre Nosotros</a>
-            </li>
-            <li class="lista">
-              <a href="./htmls/nuestrasMuestras.html">Nuestras muestras</a>
-              <ul>
-                <li class="sublista">tesla</li>
-                <li class="sublista">mclaren</li>
-                <li class="sublista">audi</li>
-              </ul>
-            </li>
-            <li class="lista">
-              <a href="./htmls/destacado.html">Destacados</a>
-            </li>
-          </ul>
+            <i class="fa-solid fa-arrow-down-long animate__animated animate__fadeInDown" id="flechas"></i>
         </div>
-      </nav>
-    </header>
-    <!-- aca empieza seccion de las muestras -->
-    <section>
-      <div>
-        <h1 class="titulos">nombre y apellido</h1>
-        <div>
-          <p class="titulos">
-            <b>Nombre y apellido del alumno:</b> Maximo Mazzocato
-          </p>
-<div></div>
-          <p class="titulos">
-            <b>Nombre y apellido del docente: </b> Jose Amador
-          </p>
-
-          <p class="texto">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            molestiae culpa magni debitis doloremque labore quia, consequuntur,
-            natus reprehenderit enim voluptatem unde voluptates neque autem.
-            Expedita sunt cupiditate quidem voluptate.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- seccion de Nuestras Muestras -->
-
-    <section class="grilla">
-      <div class="centradoImgGrillas">
-        <img
-          class="imgGrilla"
-          src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_01e5ed25d4b64cd5a2b9712638949d52.jpg"
-          alt="imagen ford territory"
-        />
-        <p>producto 1</p>
-      </div>
-      <div class="centradoImgGrillas">
-        <img
-          class="imgGrilla"
-          src="https://gestion.pe/resizer/GBIpldvkI9pJFK5sPzgpDz14Q_0=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/6UIGU3WTONHL3GJPLCLB3NPRQY.jpg"
-          alt="Ford"
-        />
-        <p>producto 2</p>
-      </div>
-      <div class="centradoImgGrillas">
-        <img
-          class="imgGrilla"
-          src="https://www.blogdecoches.net/wp-content/uploads/2017/12/Precios-de-autos-0km-Ford-2018-Dolar-a-37-pesos-06-700x525.jpg"
-          alt="Ford"
-        />
-        <p>producto 3</p>
-      </div>
-      <div class="centradoImgGrillas">
-        <img
-          class="imgGrilla"
-          src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/s/RT_V_18b0ec098e7b4357aaee150421362a71.jpg"
-          alt="Mustang"
-        />
-        <p>producto 4</p>
-      </div>
-      <div class="centradoImgGrillas">
-        <img
-          class="imgGrilla"
-          src="https://www.megautos.com/wp-content/uploads/2022/01/Ford-Mondeo-2022-render-delantera.jpg"
-          alt="Ford Ford-Mondeo-2022-render-delantera"
-        />
-        <p>producto 5</p>
-      </div>
-      <div class="centradoImgGrillas">
-        <img
-          class="imgGrilla"
-          src="https://fotos.perfil.com/2020/01/10/los-autos-electricos-de-ford-del-modelo-t-al-mustang-mach-e-857854.jpg"
-          alt="Ford mach E"
-          data-aos="zoom-in"
-        />
-        <p>producto 6</p>
-      </div>
-    </section>
-    <div class="divEnForm">
-      <form action="" method="get">
-        <div>
-          <p class="divEnForm">
-            dejanos aca tus datos para poder mantenerte informado de nuestros
-            cambios y novedades
-          </p>
-        </div>
-        <p>Nombre: <input type="text" name="nombre" /></p>
-        <div>
-          <p>
-            Año de nacimiento:
-            <input type="number" name="nacido" min="1900" max="2022" />
-          </p>
-        </div>
-
-        <p>
-          Sexo: <input type="radio" name="hm" value="h" /> Hombre
-          <input type="radio" name="hm" value="m" /> Mujer
-        </p>
-        <p>
-          <input type="submit" value="Enviar" />
-          <input type="reset" value="Borrar" />
-        </p>
-      </form>
     </div>
-    <div class="footer">
-      <footer>
-        <h3>asociado</h3>
-        <h3>contacto</h3>
-        <h3>muestras</h3>
-      </footer>
+    <div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carrusel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="itemCarrusel-1">
+                        <img src="../imagenes/audir8.jpg" class="d-block w-100" alt="audir8">
+                    </div>
+                    <div class="carousel-item activate" id="itemCarrusel-2">
+                        <img src="../imagenes/porsche taycan.jpg" class="d-block w-100" alt="porsche taycan">
+                    </div>
+                    <div class="carousel-item activate" id="itemCarrusel-3">
+                        <img src="../imagenes/ferrari roma.jpg" class="d-block w-100" alt="Ferrari Roma">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                <div id="ContePuntos">
+                    <a1 href="itemCarrusel-1"> 1 </a1>
+                    <a2 href="itemCarrusel-2"> 2 </a2>
+                    <a3 href="itemCarrusel-3"> 3 </a3>
+                </div>
+            
+        </div>
     </div>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
